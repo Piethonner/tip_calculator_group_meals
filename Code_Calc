@@ -1,8 +1,11 @@
-## Incredibly useful! ##
+## Incredibly useful bill-split-calculator! ##
+
 Bill = float(input("What's the cost on the bill?\n"))
 People = int(input("And it will be split between how many people?\n"))
 Tip = int(input("What percentage of the bill you want to leave as a tip? 10, 12 or 15?\n"))
+
 TotalBill = Bill + ((Tip/100)*Bill)
 ToPay = TotalBill/People
 FinAmount = "{:.2f}".format(ToPay)
-print(f"Everyone needs to pay {FinAmount}€ in total.")
+
+print(f"Everyone needs to pay {FinAmount}€.")
