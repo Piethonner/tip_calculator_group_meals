@@ -1,4 +1,4 @@
-## Incredibly useful bill-split-calculator! ##
+# Incredibly useful bill-split-calculator
 
 Bill = float(input("What's the cost on the bill?\n"))
 People = int(input("And it will be split between how many people?\n"))
